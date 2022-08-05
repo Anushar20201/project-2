@@ -12,7 +12,7 @@ const postdata = [
     recipe_name : 'Ice',
     diet_type : 'Gluten-free' ,
     ingredients : 'Water',
-    instructions : 	'Boil some water, pour it into an ice tray, and place it in freezer', 
+    instructions : 	'Pour water into an ice tray, and place it in freezer', 
     user_name : 'Ted'
   },
   {
