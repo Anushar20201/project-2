@@ -19,11 +19,11 @@ router.get("/", (req, res) => {
     });
 });
 
-router.get("/:id", (req, res) => {
-  // find a single recipe by its id
+router.get("/recipe/:name", (req, res) => {
+  // find a single recipe by its name
   Recipe.findOne({
     where: {
-      id: req.params.id,
+      recipe_name: req.params.name,
     },
     attributes: [
       "id",
@@ -34,7 +34,29 @@ router.get("/:id", (req, res) => {
     ],
   }).then((dbRecipeData) => {
     if (!dbRecipeData) {
-      res.status(404).json({ message: "No recipe found with that id" });
+      res.status(404).json({ message: "No recipe found with that name" });
+      return;
+    }
+    res.json(dbRecipeData);
+  });
+});
+
+router.get("/diet/:type", (req, res) => {
+  // find a single recipe by its diet type
+  Recipe.findAll({
+    where: {
+      diet_type: req.params.type,
+    },
+    attributes: [
+      "id",
+      "recipe_name",
+      "diet_type",
+      "ingredients",
+      "instructions",
+    ],
+  }).then((dbRecipeData) => {
+    if (!dbRecipeData) {
+      res.status(404).json({ message: "No recipe found with that diet type" });
       return;
     }
     res.json(dbRecipeData);
