@@ -9,7 +9,7 @@ async function searchFormHandler(event) {
     });
 
     if (response.ok) {
-      console.log(response);
+      document.location.reload();
     } else {
       alert(response.statusText);
     }
