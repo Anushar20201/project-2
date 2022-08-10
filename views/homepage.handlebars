@@ -1,4 +1,4 @@
-<ol class="recipe-list">
+<!-- <ol class="recipe-list">
   {{#each recipes as |recipe|}}
     <li>
       <article class="recipe">
@@ -11,4 +11,49 @@
       </article>
     </li>
   {{/each}}
+</ol> -->
+
+<!-- recipe items in individual boxes: this is a little wonky, still fine tuning this so please don't be alarmed!-->
+<ol class="recipe-list">
+  {{#each recipes as |recipe|}}
+    <li>
+      <article class="recipe">
+        <div class="w3-row-padding">
+        <div class="w3-third w3-container w3-margin-bottom">
+          <div class="w3-container w3-white">
+          <h1>{{recipe.recipe_name}}</h1>
+          <span>{{recipe.diet_type}}</span>
+          <p>{{recipe.ingredients}}</p>
+          <p>{{recipe.instructions}}</p>
+        </div>
+      </article>
+    </li>
+  {{/each}}
 </ol>
+
+<!-- <section>
+   first recipe row
+  <div class="w3-row-padding">
+    <div class="w3-third w3-container w3-margin-bottom">
+      <div class="w3-container w3-white">
+        {{#each recipes as |recipe|}}
+        <h1>{{recipe.recipe_name}}</h1>
+          <span>{{recipe.diet_type}}</span>
+          <p>{{recipe.ingredients}}</p>
+          <p>{{recipe.instructions}}</p>
+           {{/each}}
+      </div>
+    </div>
+    <div class="w3-third w3-container w3-margin-bottom">
+      <div class="w3-container w3-white">
+        <p><b>Lorem Ipsum</b></p>
+        <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+      </div>
+    </div>
+    <div class="w3-third w3-container">
+      <div class="w3-container w3-white">
+        <p><b>Lorem Ipsum</b></p>
+        <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+      </div>
+    </div>
+  </div> -->
