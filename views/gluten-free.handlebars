@@ -1,0 +1,16 @@
+<ol class="recipe-list">
+  {{#each recipes as |recipe|}}
+    <li>
+      <article class="recipe">
+        <div class="w3-row-padding">
+        <div class="w3-container w3-margin-bottom">
+          <div class="w3-container w3-white">
+          <h2>{{recipe.recipe_name}}</h2>
+          <span>{{recipe.diet_type}}</span>
+          <p>{{recipe.ingredients}}</p>
+          <p>{{recipe.instructions}}</p>
+        </div>
+      </article>
+    </li>
+  {{/each}}
+</ol>

@@ -37,4 +37,79 @@ router.get("/search", (req, res) => {
   res.render("search", {});
 });
 
+router.get("/vegan", (req, res) => {
+  console.log(req.session);
+  Recipe.findAll({
+    where: {
+      diet_type: "vegan",
+    },
+    attributes: [
+      "id",
+      "recipe_name",
+      "diet_type",
+      "ingredients",
+      "instructions",
+    ],
+  })
+    .then((dbRecipeData) => {
+      console.log(dbRecipeData[0]);
+      const recipes = dbRecipeData.map((recipe) => recipe.get({ plain: true }));
+      res.render("vegan", { recipes });
+    })
+    .catch((err) => {
+      console.log(err);
+      res.status(500).json(err);
+    });
+});
+
+router.get("/vegetarian", (req, res) => {
+  console.log(req.session);
+  Recipe.findAll({
+    where: {
+      diet_type: "vegetarian",
+    },
+    attributes: [
+      "id",
+      "recipe_name",
+      "diet_type",
+      "ingredients",
+      "instructions",
+    ],
+  })
+    .then((dbRecipeData) => {
+      console.log(dbRecipeData[0]);
+      const recipes = dbRecipeData.map((recipe) => recipe.get({ plain: true }));
+      res.render("vegetarian", { recipes });
+    })
+    .catch((err) => {
+      console.log(err);
+      res.status(500).json(err);
+    });
+});
+
+router.get("/gluten-free", (req, res) => {
+  console.log(req.session);
+  Recipe.findAll({
+    where: {
+      diet_type: "gluten-free",
+    },
+    attributes: [
+      "id",
+      "recipe_name",
+      "diet_type",
+      "ingredients",
+      "instructions",
+    ],
+  })
+    .then((dbRecipeData) => {
+      console.log(dbRecipeData[0]);
+      const recipes = dbRecipeData.map((recipe) => recipe.get({ plain: true }));
+      res.render("gluten-free", { recipes });
+    })
+    .catch((err) => {
+      console.log(err);
+      res.status(500).json(err);
+    });
+});
+
 module.exports = router;
