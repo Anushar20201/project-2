@@ -37,6 +37,9 @@ button {
   border-radius: 5px;
 }
 
+#diet-type{
+  padding: 5%;
+}
 button:hover {
   background-color: #a6c48a;
 }
