@@ -188,8 +188,8 @@ footer h2 {
   text-align: center;
 }
 
-h4 {
-  font-size: 50px;
+h4.nav-title {
+  font-size: 30px;
   color: #277c5c;
   align-content: center;
 }
@@ -245,3 +245,9 @@ div.search-container {
 .flex-child:first-child {
   margin-right: 20px;
 } 
+
+/* post recipe styles */
+
+form.recipe-form {
+  text-align: center;
+}
