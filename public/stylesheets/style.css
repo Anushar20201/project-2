@@ -16,7 +16,7 @@ nav {
   background-color: #f6e7cb;
   font-weight: bold;
   background-image: url("../image/bg3.jpeg");
-
+  border-right: solid #277c5c 2rem;
 }
 
 a {
@@ -26,8 +26,12 @@ a {
   transition: color 0.1s;
 }
 
-a:hover {
+a.nav:hover {
   color: #a6c48a;
+  text-decoration: underline;
+}
+a.foodie:hover {
+  font-weight: 300;
 }
 
 button {
@@ -41,11 +45,12 @@ button {
   border-radius: 5px;
 }
 
-#diet-type{
+#diet-type {
   padding: 5%;
 }
 button:hover {
   background-color: #a6c48a;
+  text-decoration: underline;
 }
 
 .recipe-list {
@@ -121,6 +126,7 @@ main {
 .btn-no-style:hover {
   background: none;
   color: #3486eb;
+  text-decoration: underline;
 }
 
 .delete-post-btn {
@@ -202,7 +208,7 @@ h4.nav-title {
 }
 
 body {
-  background-color: #f6e7cb ;
+  background-color: #f6e7cb;
 }
 
 /* website title */
@@ -234,7 +240,7 @@ ol span {
 
 div.search-container {
   width: 100%;
-  text-align:center;
+  text-align: center;
 }
 
 /* login page styling */
@@ -246,12 +252,11 @@ div.search-container {
 .flex-child {
   flex: 1;
   text-align: center;
-
-}  
+}
 
 .flex-child:first-child {
   margin-right: 20px;
-} 
+}
 
 /* post recipe styles */
 
