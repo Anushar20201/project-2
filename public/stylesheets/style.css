@@ -11,6 +11,10 @@ html {
   color: #333;
 }
 
+nav {
+  background-color: #f6e7cb;;
+}
+
 a {
   text-decoration: none;
   color: #225ca3;
@@ -19,11 +23,11 @@ a {
 }
 
 a:hover {
-  color: #3486eb;
+  color: #a6c48a;
 }
 
 button {
-  background-color: #225ca3;
+  background-color: #678d58;
   border: 0;
   padding: 1%;
   color: white;
@@ -34,7 +38,7 @@ button {
 }
 
 button:hover {
-  background-color: #3486eb;
+  background-color: #a6c48a;
 }
 
 .recipe-list {
@@ -177,7 +181,11 @@ footer {
   display: flex;
   justify-content: center;
   padding: 1%;
-  font-size: 110%;
+}
+
+footer h2 {
+  font-size: 20px;
+  text-align: center;
 }
 
 h4 {
@@ -190,3 +198,50 @@ body {
   background-color: #f6e7cb ;
 }
 
+/* website title */
+
+header h1 {
+  font-size: 50px;
+  text-align: center;
+  color: #277c5c;
+}
+
+/* recipe card styles */
+
+ol h2 {
+  font-size: 20px;
+  font-weight: bolder;
+  text-decoration: underline;
+  align-items: center;
+}
+
+ol {
+  list-style: none;
+}
+
+ol span {
+  font-style: italic;
+}
+
+/* search page styling */
+
+div.search-container {
+  width: 100%;
+  text-align:center;
+}
+
+/* login page styling */
+
+.flex-container {
+  display: flex;
+}
+
+.flex-child {
+  flex: 1;
+  text-align: center;
+
+}  
+
+.flex-child:first-child {
+  margin-right: 20px;
+} 
