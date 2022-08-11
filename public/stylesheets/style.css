@@ -4,6 +4,7 @@
 
 body,
 html {
+  /* background-image: url("../image/bg.jpg"); */
   height: 100%;
   padding: 0;
   margin: 0;
@@ -12,7 +13,10 @@ html {
 }
 
 nav {
-  background-color: #f6e7cb;;
+  background-color: #f6e7cb;
+  font-weight: bold;
+  background-image: url("../image/bg3.jpeg");
+
 }
 
 a {
