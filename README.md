@@ -22,8 +22,14 @@ Our app is basically a recipe app where user can login/ signup into our Foodie w
 This can be accessible at : https://github.com/Anushar20201/the-foodie
 
 ### Heroku-link
-
+https://the-foodie-group.herokuapp.com/
 
 ### Screenshot
  ![Sample1](https://github.com/Anushar20201/the-foodie/blob/main/public/image/image-1.PNG)
  ![Sample2](https://github.com/Anushar20201/the-foodie/blob/main/public/image/image-2.PNG)
+
+### Designed with ❤️ by
+ - Shane
+ - Anusha
+ - Hannah
+ - MD
