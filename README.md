@@ -11,5 +11,6 @@ This can be accessible at : https://github.com/Anushar20201/the-foodie
 
 
 ### Screenshot
- ![Sample]()
+ !(https://github.com/Anushar20201/the-foodie/blob/main/public/image/image-1.PNG)
+ !(https://github.com/Anushar20201/the-foodie/blob/main/public/image/image-2.PNG)
  
