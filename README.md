@@ -1,7 +1,7 @@
 # THE-FOODIE
 
 ### Description
-Our app is basically a recipe app where user can login/ signup into our Foodie website and can search for a recipe based on user name, recipe name, diet type. User can also post a new recipe through this application.
+Our app is basically a recipe app where user can login/ signup into our Foodie website view all recipes and can search for a recipe based on diet type from the drop-down. User can also post a new recipe through this application.
 
 ### Use cases
  - When a USER clicks on the herokuLink, he will be able to access our app
@@ -18,10 +18,10 @@ Our app is basically a recipe app where user can login/ signup into our Foodie w
  - Adding Delete API - so that we cover all CRUD operations
 
 
-### Link
+### Git-link
 This can be accessible at : https://github.com/Anushar20201/the-foodie
 
-### Video
+### Heroku-link
 
 
 ### Screenshot
