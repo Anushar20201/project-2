@@ -17,6 +17,16 @@ Our app is basically a recipe app where user can login/ signup into our Foodie w
  - Search by RecipeName
  - Adding Delete API - so that we cover all CRUD operations
 
+### Technologies used
+
+ - Node.js
+ - Express.js
+ - Handlebars
+ - mySQL2
+ - sequelize
+ - session
+ - Heroku
+
 
 ### Git-link
 This can be accessible at : https://github.com/Anushar20201/the-foodie
