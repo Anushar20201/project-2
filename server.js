@@ -25,7 +25,12 @@ const sess = {
 //using sesion here
 app.use(session(sess));
 //configuring the handlebar as the defualt engine
-app.engine("handlebars", hbs.engine);
+app.engine('handlebars', exphbs.engine({
+  layoutsDir: 'views/Layouts', 
+  defaultLayout: 'main', 
+  extname: '.handlebars'
+}));
+
 app.set("view engine", "handlebars");
 
 app.use(express.json());
