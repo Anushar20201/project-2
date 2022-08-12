@@ -1,5 +1,6 @@
 const { User, Recipe } = require("../models");
 
+//sample userdata
 const userData = [
   {
     username: "sam",

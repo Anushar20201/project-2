@@ -37,6 +37,7 @@ router.get("/search", (req, res) => {
   res.render("search", {});
 });
 
+// diet-type vegan
 router.get("/vegan", (req, res) => {
   console.log(req.session);
   Recipe.findAll({
@@ -62,6 +63,7 @@ router.get("/vegan", (req, res) => {
     });
 });
 
+// diet-type vegetarian
 router.get("/vegetarian", (req, res) => {
   console.log(req.session);
   Recipe.findAll({
@@ -87,6 +89,7 @@ router.get("/vegetarian", (req, res) => {
     });
 });
 
+// diet-type gluten-free
 router.get("/gluten-free", (req, res) => {
   console.log(req.session);
   Recipe.findAll({

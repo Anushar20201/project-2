@@ -22,11 +22,9 @@ const sess = {
     db: sequelize,
   }),
 };
-
+//using sesion here
 app.use(session(sess));
-
-// const helpers = require("./utils/helpers");
-
+//configuring the handlebar as the defualt engine
 app.engine("handlebars", hbs.engine);
 app.set("view engine", "handlebars");
 
@@ -34,6 +32,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(express.static(path.join(__dirname, "public")));
 
+//calling routes (controllers)
 app.use(routes);
 
 sequelize.sync({ force: false }).then(() => {

@@ -1,5 +1,6 @@
 const { Recipe } = require("../models");
 
+//sample recipeData
 const recipeData = [
   {
     recipe_name: "Oatmeal",
