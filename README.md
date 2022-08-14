@@ -35,9 +35,10 @@ This can be accessible at : https://github.com/Anushar20201/the-foodie
 https://the-foodie-group.herokuapp.com/
 
 ### Screenshots
-<img width="1252" alt="Screen Shot 2022-08-12 at 6 35 10 PM" src="https://user-images.githubusercontent.com/104178313/184457014-5e36a12a-7e46-457b-8023-9244ffb7904e.png">
-<img width="1259" alt="Screen Shot 2022-08-12 at 6 36 55 PM" src="https://user-images.githubusercontent.com/104178313/184457076-ace7463f-18e5-40ff-b16c-e89c56fa1a75.png">
-<img width="1258" alt="Screen Shot 2022-08-12 at 6 37 02 PM" src="https://user-images.githubusercontent.com/104178313/184457078-ba24838c-bc44-4f80-a16c-0075a05f84de.png">
+<img width="1257" alt="Screen Shot 2022-08-14 at 6 53 03 PM" src="https://user-images.githubusercontent.com/104178313/184559535-17cca9b8-a8c3-45da-9019-350641c3e805.png">
+<img width="1253" alt="Screen Shot 2022-08-14 at 6 53 15 PM" src="https://user-images.githubusercontent.com/104178313/184559537-732855d4-0bab-494a-aba1-2c7bd6ee8575.png">
+<img width="1256" alt="Screen Shot 2022-08-14 at 6 53 36 PM" src="https://user-images.githubusercontent.com/104178313/184559539-77d864c3-24fc-4bf7-97fa-91359b993019.png">
+
 
 
 ### Designed with ❤️ by
