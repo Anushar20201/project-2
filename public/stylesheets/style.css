@@ -16,7 +16,7 @@ nav {
   font-weight: 400;
   background-image: linear-gradient(gray, white);
   background-image: url("../image/bg3.jpeg");
-  border-right: solid #277c5c 2rem;
+  border-right: solid #dd9787 2rem;
 }
 
 a {
@@ -34,6 +34,7 @@ a.nav:hover {
 
 a.foodie:hover {
   color: #a6c48a;
+  text-shadow: #678d58;
   font-weight: 100;
 }
 
@@ -111,6 +112,7 @@ header {
 
 header h1 {
   font-size: 1em;
+  text-shadow: 2px 2px #dd9787;
 }
 
 main {

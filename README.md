@@ -2,17 +2,17 @@
 
 ### Description
 
-Our app is basically a recipe app where user can login/ signup into our Foodie website view all recipes and can search for a recipe based on diet type from the drop-down. User can also post a new recipe through this application.
+An app where you can view recipes and sort by diet type through a drop-down menu. To gain access to posting new recipes, users can sign up and/or log in to 'the foodie'.
 
 ### Use cases
 
-- When a USER clicks on the herokuLink, he will be able to access our app
+- When a USER clicks on the herokuLink, they will be able to access our app
 - USER can view all the recipes on the homepage
-- If a USER wants to post a new recipe, he should signup for the first time
+- If a USER wants to post a new recipe, they should signup for the first time
 - USER can login and post a new recipe too.
-- USER can log-out if he want to exit from his account.
+- USER can log-out if they want to exit from their account.
 - USER can also select diet-type from the dropdown
-- Whenver USER selects a diet-type and click on search, he will be able to see all the recipes based on diet-type.
+- Whenver USER selects a diet-type and click on search, they will be able to see all the recipes based on diet-type.
 
 ### Future plan
 
@@ -25,7 +25,7 @@ Our app is basically a recipe app where user can login/ signup into our Foodie w
 - Node.js
 - Express.js
 - Handlebars
-- mySQL2
+- MySQL2
 - sequelize
 - session
 - Heroku
