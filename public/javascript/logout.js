@@ -6,7 +6,7 @@ async function logout() {
     newestOnTop: false,
     progressBar: false,
     positionClass: "toast-top-right",
-    preventDuplicates: false,
+    preventDuplicates: true,
     onclick: null,
     showDuration: "300",
     hideDuration: "1000",
@@ -23,7 +23,7 @@ async function logout() {
   });
 
   if (response.ok) {
-    Command: toastr["info"]("you've been logged out.", "See ya,");
+    Command: toastr["warning"]("you've been logged out.", "See ya,");
   } else {
     alert(response.statusText);
   }
