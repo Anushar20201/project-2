@@ -29,7 +29,7 @@ An app where you can view recipes and sort by diet type through a drop-down menu
 - sequelize
 - session
 - Heroku
-- Toastr
+- Toastr (this is the extra library we chose for our project - to display a message when you logout)
 
 ### Git-link
 
